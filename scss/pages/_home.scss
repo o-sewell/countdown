@@ -1,0 +1,41 @@
+body {
+  background: $black;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  width: 20em;
+  margin: auto;
+  text-align: center;
+  border: 1px solid $white;
+  background: linear-gradient($crimson, $tabasco);
+  border-radius: $br--default;
+  padding: em(20px);
+  box-shadow: 5px 0 5px -5px $white,
+              -5px 0 5px -5px $white;
+
+  &__counter {
+    color: $white;
+    font-size: 6em;
+    letter-spacing: $letter-space;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: em(10px) 0;
+  }
+
+  &__title {
+    padding: em(10px) 0;
+    color: $white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: em(1.5px);
+    font-size: 2.5em;
+    margin: 0;
+    border-top: 1.5px solid black;
+    padding: 20px 0;
+    font-weight: 300;
+  }
+
+
+}
